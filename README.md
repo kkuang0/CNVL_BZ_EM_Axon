@@ -75,7 +75,9 @@ tensorboard --logdir=runs/
 
 ## Data requirements
 Each pipeline requires a metadata.csv file with the following columns:
-| filepath | pathology | region | depth | patient_id |
-| ----------- | ----------- |
-| path/to/image.tif | ASD | A25 | DWM | HEG |
+| filepath           | pathology | region | depth | patient_id |
+|--------------------|-----------|--------|-------|------------|
+| path/to/img1.tif   | ASD       | A25    | DWM   | ABC        |
+| path/to/img2.tif   | Control   | A46    | SWM   | XYZ        |
+
 Data from BZ.
