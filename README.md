@@ -3,5 +3,5 @@
 To recreate the environment, run:
 ```
 conda env create -f environment.yml
-conda activate base
+conda activate axon_EM
 ```
